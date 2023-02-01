@@ -2,20 +2,6 @@ import sys
 #Ensimmäinen muutos.
 # This is the main finction for controlling the flow of the
 # implementation.
-def main():
-    limits = parse_limits()
-    sensor_data = []
-#Toinen
-    if len(limits) > 0 and check_limits(limits):
-        sensor_data = read_sensors()
-        # This is a mockup code that prints the sensor readings
-        # to console. To be replaced with actual implementation
-        # (whatever that might be according to the low level design,
-        # for example).
-        for row in sensor_data:
-            print (row)
-    else:
-        print("Error: Incorrect command line arguments.")
 
 # This is the parse_limits function for getting the temperature
 # limits from the command line parameters. Returns an array
@@ -55,6 +41,21 @@ def read_sensors():
 
 # Other parts of the implementation such as printing the information
 # for the operator are also missing and to be implemented.
+
+def main():
+    limits = parse_limits()
+    sensor_data = []
+#Toinen
+    if len(limits) > 0 and check_limits(limits):
+        sensor_data = read_sensors()
+        # This is a mockup code that prints the sensor readings
+        # to console. To be replaced with actual implementation
+        # (whatever that might be according to the low level design,
+        # for example).
+        for row in sensor_data:
+            print (row)
+    else:
+        print("Error: Incorrect command line arguments.")
 
 if __name__ == "__main__":
     main()
