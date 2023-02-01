@@ -3,6 +3,7 @@ import sys
 # This is the main finction for controlling the flow of the
 # implementation.
 
+
 # This is the parse_limits function for getting the temperature
 # limits from the command line parameters. Returns an array
 # that has the limits (limits[0] has min. temperature limit and
