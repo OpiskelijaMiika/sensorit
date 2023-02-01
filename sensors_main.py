@@ -1,5 +1,5 @@
 import sys
-
+# Itse muutettu.
 # This is the main finction for controlling the flow of the
 # implementation.
 
@@ -57,6 +57,6 @@ def main():
             print (row)
     else:
         print("Error: Incorrect command line arguments.")   
-        
+
 if __name__ == "__main__":
     main()
