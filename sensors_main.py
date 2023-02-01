@@ -1,7 +1,6 @@
 #Toinen testaus
 import sys
 # Itse muutettu.
-#Kolmas testi
 # This is the main finction for controlling the flow of the
 # implementation.
 
