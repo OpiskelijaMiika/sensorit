@@ -1,9 +1,6 @@
-#Toinen testaus
+
 import sys
 # Itse muutettu.
-# This is the main finction for controlling the flow of the
-# implementation.
-
 
 # This is the parse_limits function for getting the temperature
 # limits from the command line parameters. Returns an array
@@ -44,6 +41,8 @@ def read_sensors():
 # Other parts of the implementation such as printing the information
 # for the operator are also missing and to be implemented.
 
+# This is the main finction for controlling the flow of the
+# implementation.
 def main():
     limits = parse_limits()
     sensor_data = []
