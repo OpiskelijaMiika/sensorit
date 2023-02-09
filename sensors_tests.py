@@ -47,7 +47,7 @@ class TestSensors(unittest.TestCase):
 
     #Redirect console output to sys.stdout in order
     # to chech its content from the test case
-    patch('builtins.print')
+    @patch('builtins.print')
     def test_check_limits1_integration1(self, mock_print):
         # set command line parameters for the test case
         sys.argv = [["sensors_main.py"], [22], [18]]
